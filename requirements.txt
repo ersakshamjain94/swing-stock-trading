@@ -1,0 +1,5 @@
+django
+gunicorn
+django-heroku
+openpyxl
+numpy==1.6.2

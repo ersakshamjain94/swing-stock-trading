@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<a title="Real Time Web Analytics" href="http://clicky.com/101281117"><img src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101281117);</script>
+<script async src="//static.getclicky.com/js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101281117ns.gif" /></p></noscript>
+
+<script data-ad-client="ca-pub-2476176703024575" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+   <body>
+
+      <form action = "http://swing-strategy.herokuapp.com/uploader" method = "POST" 
+         enctype = "multipart/form-data" class="col-lg-6 offset-lg-3 ">
+           <div class="row justify-content-center">
+         <div class = "form-group">
+         <label for="csvupload">Please upload past 3 months data from NSE site(upload takes some time based on internet speed)</label>
+         <input type = "file" class="form-control-file" name = "file" id="csvupload" />
+         <br>
+         <span class="input-group-btn">
+         <input type = "submit" class="btn btn-primary" value="Upload File to Server"/>
+            </span>
+         </div>
+         </div>
+      </form>
+   <div class="row justify-content-center">
+   <p>
+   Disclaimer, This tool helps you to automate strategy mentioned here https://www.youtube.com/watch?v=5w5sTHW6Vko . <br/>
+   Strategy credits goes to Nitin Bhatia who is owner of youtube channel.<br/> Neither me nor Nitin bhatia is responsible for your profit or loss.
+   This is for educational purpose only
+   </p>
+   <p> Currently you will get the final filtered excel sheet, Integration with NSE site is coming soon..</p>
+   <p> Please follow other steps like checking promoter holding etc. manually </p>
+   </div>
+   <div class="row justify-content-center">
+   <p>
+   <br/>
+   <br/>
+   <br/>
+   <h1>To buy me a cup of coffee/tea you can paytm below :) as per your wish</h1>
+   <img src="{{url_for('static', filename='paytmqr.jpeg')}}" alt="Buy me a coffee" width="500" height="600">
+   </p>
+   </div>
+   </body>
+</html>
